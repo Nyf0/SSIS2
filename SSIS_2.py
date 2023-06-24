@@ -2,7 +2,7 @@ import sqlite3
 import os
 import msvcrt as m
 
-# Create a connection to the database (or open if it already exists)
+# Create a connection to the database
 conn = sqlite3.connect('SSIS_2.db')
 print("Connected successfully!")
 cursor = conn.cursor()
